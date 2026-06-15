@@ -1,7 +1,3 @@
-https://gemini.google.com/app/edc934fa5e86422e?hl=en-IN
-
-
-
 # If you prefer the allow list template instead of the deny list, see community template:
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
@@ -11,6 +7,7 @@ https://gemini.google.com/app/edc934fa5e86422e?hl=en-IN
 *.dll
 *.so
 *.dylib
+notes.txt
 
 # Test binary, built with `go test -c`
 *.test
