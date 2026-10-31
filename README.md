@@ -1,23 +1,8 @@
-# Golang Study
-This repo contains concepts, code for nuances, concepts in Golang
+# Go learning repository
 
-```
-go-mastery/
-├── 01-semantics/
-│   ├── memory-layout/     # Pointers, escape analysis, heap vs. stack
-│   ├── data-structures/   # Slice headers, map internals
-│   └── error-handling/    # Custom errors, wrapping, panics
-├── 02-concurrency/
-│   ├── primitives/        # Goroutines, unbuffered vs buffered channels
-│   ├── synchronization/   # sync.Mutex, sync.WaitGroup, sync.Cond
-│   └── context/           # Lifecycle management, timeouts, cancellation
-├── 03-systems/
-│   ├── scheduler/         # M:P:G model demonstrations
-│   ├── io-streams/        # io.Reader, io.Writer, streaming data pipelines
-│   └── interop/           # CGO bindings for high-performance C/C++ libs
-└── 04-advanced/
-    ├── generics/          # Type constraints, monomorphization
-    ├── iterators/         # Go 1.23+ iter.Seq, pull/push semantics
-    └── observability/     # pprof, runtime tracing, GC tuning
-```
+I am learning Go beyond basic syntax by writing the exercise code myself. The teacher explains concepts, sets exercises, gives hints, and reviews my work.
+
+Start with the [study plan](STUDY_PLAN.md), then follow the [lesson directories](go-mastery/README.md). Each lesson has a short brief and a place for my programs and notes.
+
+The [Deep Go section](go-mastery/03-deep-go/README.md) holds earlier work on memory and interfaces. It is reference material for later study.
 
